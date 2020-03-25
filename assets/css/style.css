@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Literata|Montserrat&display=swap');
+body, html{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+
+section{
+  height: 100vh;
+  width: 100%;
+  margin: 2%;
+}
+#Crecel{
+  height: 10vh;
+  width: 6vw;
+  background-color: red;
+  border-radius: 100%;
+  transition: ease-in;
+}
+
+
+
+@keyframes cercel-animi {
+    0% {
+    transform: translateX(100vw);
+    }
+    
+    25% {
+      transform: translateY(-100%);
+    }
+    
+    50% {
+      transform: translateX(-100%);
+    }
+    
+    75% {
+      transform: translateY(100%);
+
+    }
+
+}
+div{
+  animation: cercel-animi  infinite;
+}
