@@ -9,11 +9,10 @@ body, html{
 
 
 section{
-
   transition: linear;
  
 }
-#Crecel{
+#crecel{
   height: 10vh;
   width: 6vw;
   background-color: red;
@@ -21,7 +20,7 @@ section{
   animation: meine-animation 5s infinite;
 
 }
-section :active{
+section:active{
 
 }
 
